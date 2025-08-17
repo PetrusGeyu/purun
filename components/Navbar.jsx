@@ -13,7 +13,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="absolute top-0 left-0 w-full bg-transparent flex justify-between items-center p-6 z-10 text-white">
+    <nav className="absolute top-0 left-0 w-full bg-transparent flex justify-between items-center p-6 z-10 text-white ">
       {/* Logo */}
       <h1 className="text-lg font-semibold">FarGrammer</h1>
 

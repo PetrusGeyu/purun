@@ -40,11 +40,11 @@ export default function About() {
         </p>
       </div>
 
-      <div className="space-y-16">
+      <div className="space-y-8">
         {plants.map((plant, index) => (
           <div
             key={plant.name}
-            className={`flex flex-col md:flex-row items-center ${
+            className={`flex flex-col md:flex-row items-center p-8 ${
               index % 2 !== 0 ? "md:flex-row-reverse" : ""
             }`}
           >
@@ -54,7 +54,7 @@ export default function About() {
                 alt={plant.name}
                 width={600} // ✅ wajib untuk Next/Image
                 height={400}
-                className="rounded-lg shadow-lg object-cover w-full h-80"
+                className="rounded-lg shadow-lg object-cover w-full h-80 "
               />
             </div>
             <div className="w-full md:w-1/2 md:px-8 mt-6 md:mt-0">
