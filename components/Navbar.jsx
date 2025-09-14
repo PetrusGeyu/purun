@@ -86,7 +86,7 @@ const Navbar = () => {
             ))}
           </ul>
           <Link
-            href="/kontak"
+            href="#contact"
             className="mt-6 bg-lime-400 text-black px-5 py-2 rounded-full flex items-center gap-2 hover:bg-lime-500 transition-colors"
             onClick={() => setIsOpen(false)}
           >
